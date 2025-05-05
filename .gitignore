@@ -1,0 +1,38 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Key files
+*.pem
+*.key
+*.pub
+my-key-pair
+my-key-pair.pub
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+*.log.*
+
+# Local environment files
+.env
+.env.local
+.env.*.local 
